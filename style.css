@@ -1,35 +1,43 @@
-Header {
+header {
   font-family: "Philosopher", sans-serif;
   font-weight: bold;
   text-align: center;
   color: #457b9d;
 }
-Body {
-  background-color: #f1faee;
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
 
+body {
+  background-color: #f1faee;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4rem;
+  line-height: 1.6;
+}
 .title {
   font-size: 3rem;
 }
 .subtitle {
   font-size: 1.5rem;
+  color: #2c3e50;
+  font-family: "Fanwood Text", serif;
   /* text-align: left; */
 }
 .body-div {
   font-size: 1.2rem;
 }
-abbr {
+.tagline {
   font-family: "Philosopher", sans-serif;
-
   font-weight: 400;
   font-style: normal;
   font-size: 0.7em;
   /* font-style: italic; */
-  text-align: justify;
+  text-align: center;
   color: #f26a6a;
 }
+h2 {
+  font-family: "Philosopher", sans-serif;
+  color: #f26a6a;
+}
+
 p {
   font-family: "Fanwood Text", serif;
   margin-left: 0.5em;
@@ -37,9 +45,50 @@ p {
   text-align: justify;
   color: #2c3e50;
 }
-hr {
+/* hr {
   height: 0.05em;
   border-width: 0;
   color: #a3c6e8;
   background-color: #a3c6e8;
+} */
+hr {
+  border: none;
+  border-top: 0.2rem double #a3c6e8;
+  color: #a3c6e8;
+  overflow: visible;
+  text-align: center;
+  height: 0.1rem;
+}
+
+hr::after {
+  content: "§§§";
+  padding: 0 4px;
+  position: relative;
+  top: -15px;
+}
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+  }
+
+  .body-div {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+footer {
+  margin-top: 3rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
 }
