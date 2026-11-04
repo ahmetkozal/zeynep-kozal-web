@@ -11,7 +11,10 @@ body {
   margin: 0 auto;
   padding: 0 4rem;
   line-height: 1.6; */
+  background: radial-gradient(ellipse at center, #f1faee 45%, #dce8df 100%);
+  background-attachment: fixed;
 }
+
 .title {
   font-size: 3rem;
 }
