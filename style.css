@@ -1,0 +1,32 @@
+/*
+- **Primary Color:** Peach - #FFCBA4
+- **Accent Color:** Coral - 
+- **Base/Background:** Charcoal - #333333
+*/
+Body {
+  background-color: #ffcba4;
+}
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+.subtitle {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6b6b;
+}
+.body-div {
+  font-size: 17px;
+}
+abbr {
+  font-size: 12px;
+  font-style: italic;
+  text-align: justify;
+  color: #ff6b6b;
+}
+p {
+  text-align: justify;
+}
